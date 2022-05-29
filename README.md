@@ -13,6 +13,9 @@
 2. 技术胖用的Electron版本比较旧（版本号为8左右），目前最新的版本号是19（v19.0.1），remote模块已经被弃用了，参考了最新版的写法实现了技术胖课程里的demo案例，参考[electron报错：Uncaught TypeError: Cannot read property ‘BrowserWindow‘ of undefined_程序源-的博客-CSDN博客](https://blog.csdn.net/weixin_46205984/article/details/120065725)
 3. 本课程还是比较简单的，适合入门；待学习完后，再去看官方最新的文档，也不会那么困难了。Electron官方文档地址 [Introduction | Electron](https://www.electronjs.org/docs/latest)，可能需要科学上网。
 4. 关于npx：[npx 使用教程 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2019/02/npx.html)
+5. 每个demo里都有README.md，大致梳理了下每个案例要做什么，完善中。
+6. Gitee地址：[ElectronDemo: 学习技术胖的Electron课程做的练习题](https://gitee.com/peterjxl/ElectronDemo)， GitHub地址：[Peter-JXL/ElectronDemo](https://github.com/Peter-JXL/ElectronDemo)
+
 
 
 
