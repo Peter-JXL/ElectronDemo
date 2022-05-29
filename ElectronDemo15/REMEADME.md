@@ -1,6 +1,1 @@
-演示如何将一个网页嵌入到Electron中
-
-1. 新建main.js
-2. 初始化仓库
-3. 新建index.html文件
-
+演示windows系统右下角的弹出消息
