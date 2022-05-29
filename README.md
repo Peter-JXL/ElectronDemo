@@ -14,8 +14,8 @@
 3. 本课程还是比较简单的，适合入门；待学习完后，再去看官方最新的文档，也不会那么困难了。Electron官方文档地址 [Introduction | Electron](https://www.electronjs.org/docs/latest)，可能需要科学上网。
 4. 关于npx：[npx 使用教程 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2019/02/npx.html)
 5. 每个demo里都有README.md，大致梳理了下每个案例要做什么，完善中。
-6. Gitee地址：[ElectronDemo: 学习技术胖的Electron课程做的练习题](https://gitee.com/peterjxl/ElectronDemo)， GitHub地址：[Peter-JXL/ElectronDemo](https://github.com/Peter-JXL/ElectronDemo)
-
+6. Gitee地址：[Peter-JXL/ElectronDemo](https://gitee.com/peterjxl/ElectronDemo)， GitHub地址：[Peter-JXL/ElectronDemo](https://github.com/Peter-JXL/ElectronDemo)
+7. 欢迎大家点赞、提issue和fork
 
 
 
