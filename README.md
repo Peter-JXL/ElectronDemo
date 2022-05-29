@@ -18,9 +18,11 @@
 7. 欢迎大家点赞、提issue和fork
 
 
-
-
-
+本地开发环境信息：
+node： v15.13.0
+npm ：7.7.6
+electron ：v19.0.1
+OS：Win10
 
 
 
