@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>remote</title>
+</head>
+
+<body>
+    选择对话框练习
+    <button id="btn">打开美女图片</button>
+    <img id="images" style="width: 100%;" />
+</body>
+<script>
+    var dialog = require('@electron/remote').dialog;
+    console.log(dialog)
+    var btn = document.getElementById('btn')
+    btn.onclick = function () {
+        dialog.showOpenDialog({
+            title: '请选择你喜欢的小姐姐照片',
+            defaultPath: 'D:\\Picture',
+            filters: [
+                { name: 'jpg', extensions: ['jpg', 'png'] }
+            ],
+            buttonLabel: '打开小姐姐'
+        }).then(result => {  //选择图片后
+            console.log(result)
+            let image = document.getElementById('images')
+            image.setAttribute('src', result.filePaths[0])
+        }).catch(err => {
+            console.log(err)
+        })
+    }
+
+
+</script>
+
+</html>

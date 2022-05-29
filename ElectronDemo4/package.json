@@ -1,0 +1,12 @@
+{
+  "name": "ElectronDemo4",
+  "version": "1.0.0",
+  "description": "demo目的：读取文件内容展示到Electron上。了解主进程和渲染进程",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

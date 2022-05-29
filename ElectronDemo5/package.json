@@ -1,0 +1,15 @@
+{
+  "name": "ElectronDemo5",
+  "version": "1.0.0",
+  "description": "demo目的：实现点击按钮，打开一个新窗口。使用了remote模块。",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^19.0.1"
+  }
+}
